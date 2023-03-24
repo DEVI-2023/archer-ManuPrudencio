@@ -35,7 +35,13 @@ namespace Archer
 
         private void Update()
         {
-  
+            LookAt(target) = target.position + offset;
+
+
+
+
+
+
         }
 
     }
